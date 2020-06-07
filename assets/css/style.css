@@ -34,7 +34,7 @@ html {
 }
 
 .block {
-    color: rgb(235,196,72);
+    color: rgb(221,171,39);
     font-weight: bolder;
     padding: 30px;
     margin-bottom: 30px;
@@ -44,3 +44,33 @@ html {
 .block-header {
     font-size: 65px;
 }
+
+.footer {
+    /* Positioning */
+    position: absolute;
+    bottom: 0;
+  
+    /* Box-model */
+    width: 100%;
+    height: 60px;
+  
+    /* Visual */
+    background-color: rgb(76,70,56);
+  }
+  
+  .text-center {
+    /* Box-model */
+    margin-top: 15px;
+  
+    /* Typography */
+    color: #fff;
+  }
+  
+  .two-toned-footer-color {
+    /* Box-model */
+    height: 6px;
+    padding-top: 3px;
+  
+    /* Visual */
+    background-color: rgb(221,171,39);
+  }
