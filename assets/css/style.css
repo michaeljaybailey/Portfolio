@@ -1,0 +1,46 @@
+body {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+    
+    background-image: url("../images/background.jfif");
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+
+html {
+    position: relative;
+
+    min-height: 100%;
+}
+.navbar {
+    background-color: rgb(76,70,56);
+    border: none;
+    
+}
+
+#Name,#aboutPage,#portfolioPage,#skillsPage {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+#aboutMe {
+    margin: 80px 0;
+    margin-left: 100px;
+    
+}
+
+.block {
+    color: rgb(235,196,72);
+    font-weight: bolder;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.block-header {
+    font-size: 65px;
+}
